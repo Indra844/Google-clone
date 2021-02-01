@@ -1,0 +1,26 @@
+.searchItem {
+  margin-left: 140px;
+  padding: 10px;
+  max-width: 700px;
+}
+.searchItem__title {
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.searchItem__link {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.searchItem__desc {
+  color: gray;
+  font-weight: 300;
+}
+.searchItem__title:hover {
+  text-decoration: underline;
+}
+.searchItem__link:hover {
+  color: gray;
+}

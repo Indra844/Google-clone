@@ -1,0 +1,52 @@
+.searchPage {
+  overflow: hidden;
+}
+.searchPage__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+}
+.searchPage__header__left {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+}
+.searchPage__icon {
+  display: flex;
+  flex: 0;
+  height: 60px;
+  object-fit: contain;
+}
+
+.searchPage__input {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 20px;
+  min-width: 200px;
+}
+.searchPage__form {
+  width: 90%;
+  display: flex;
+}
+.searchPage__form button {
+  display: none;
+  flex: 0;
+}
+.searchPage__form input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.searchPage__header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right__icons {
+  margin-right: 20px;
+}
